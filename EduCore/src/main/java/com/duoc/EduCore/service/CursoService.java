@@ -30,8 +30,8 @@ public class CursoService {
         return cursoRepository.save(curso);
     }
 
-    public Curso updateLibro(Curso libro){
-        return cursoRepository.save(libro);
+    public Curso updateCurso(Curso curso){
+        return cursoRepository.save(curso);
     }
 
     // Existe curso

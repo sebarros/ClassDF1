@@ -49,8 +49,8 @@ public class CursoController {
     }
 
     @PutMapping("{id}")
-    public Curso actualizarLibro(@PathVariable Integer id, @RequestBody Curso curso){
-        return cursoService.updateLibro(curso);
+    public Curso actualizarCurso(@PathVariable Integer id, @RequestBody Curso curso){
+        return cursoService.updateCurso(curso);
     }
 
     // Guardar curso
